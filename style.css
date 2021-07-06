@@ -2,13 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-/*  start */ 
-.clear::after{
-    content: "";
-    clear: both;
-    display: block;
-}
-   
+/*  Menu bar  */ 
 .menu-bar {
     background-color: #FFF4ED;
     padding: 10px 0;
@@ -16,16 +10,13 @@ body{
     top: 0;
     width: 100%;
 }
-
 .menu-left{
     width: 75%;
 }
-
 .menu-left ul li {
     display: inline;
     padding-left: 50px;
 }
-
 .menu-left ul li a {
     text-decoration: none;
     font-size: 20px;
@@ -43,7 +34,6 @@ body{
     padding: 11px 15px;
     border-color: #FC934A;
     background-color: #ffffff;
-    /* box-shadow: 0px 0px 10px #00000080; */
     border-radius: 10px;
 }
 .menu-right button {
@@ -53,18 +43,22 @@ body{
     border-radius: 8px;
     margin-left: 10px;
     color: white;
-    /* box-shadow: 0 0 10px #8a8a8a; */
 }
- /* end */
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/*  Menu bar end  */ 
 
+/* first section */
 h1{
     font-size: 50px;
-    
-    
 }
 .header-color{
     color: orange;
 }
+
 .flxible-container{
     display: flex;
     margin-bottom: 100px;
@@ -72,9 +66,6 @@ h1{
 }
 .top-banner{
     margin-top: 10%;
-    
-    
-
 }
 .half-width{
     width: 40%;
@@ -87,12 +78,10 @@ h1{
 }
 .half-width h1{
     color: #575757;
-    
     margin-top: 90px;
 }
 .half-width p {
     color: #575757;
-    
     margin-bottom: 50px;
 }
 .link-button{
@@ -106,14 +95,15 @@ h1{
 .link-button:hover{
     text-decoration: underline;
     color: black;
-    
 }
+/* header  end*/
+
+/* about section*/
 .about-section{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0px ;
-    
 }
 .about img{
     width: 60%;
@@ -121,16 +111,17 @@ h1{
     margin-right: 20%;
     margin-top: 20%;
 }
+/* about section end*/
+
+/*recipies section*/
 .recipies h2{
     text-align: center;
     color: #575757;
 }
-
 .recipies p{
     text-align: center;
     padding: 0 25%;
-    color: #575757;
-    
+    color: #575757;   
 }
 .recipies-section{
     margin-top: 0;
@@ -147,37 +138,32 @@ h1{
     width: 100%;
     border-radius: 15px;
 }
-/* hf */
+/*recipies section end*/
 
+/* Subscribers Section */
 .section-subscribe{
     padding: 50px 8%;
 }
-
 .subscribe-row{
     border-radius: 15px;
     box-shadow: 10px 5px 25px #b3b3b3;
 }
-
 .subscribe{
     width: 33%;
     text-align: center;
     padding: 15px 0;
 }
-
 .subscribe p{
     margin: 0;
 }
-/* jjf*/
+/* Subscribers Section end*/
 
-
-
+/*Subscribe section*/
 .newsletter {
     padding-bottom: 120px;  
     padding-top: 20px;
     text-align: center;
 }
-
-
 .news-head p {
     font-size: 22px;
 }
@@ -185,7 +171,6 @@ h1{
     font-size: 50px;
     margin-top: -10px;
 }
-
 .news-box input {
     padding: 21px 82px;
     border: 1px solid #FC934A;
@@ -207,9 +192,10 @@ h1{
     background-color: white;
     border: 2px solid #FC934A;
     color: black ;
-
 }
+/* Subscribe section end*/
 
+/*footer section */
 footer{
     background-color: black;
     padding: 25px 0;
@@ -232,3 +218,4 @@ footer div p{
     margin: 0;
     color: #fff;
 }
+/*footer section */
