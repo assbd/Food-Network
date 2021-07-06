@@ -16,7 +16,7 @@ ul{
 
 ul li{
     display: inline;
-    font-weight: 700;
+    font-weight: 600;
     font-size: larger;
     
 }
@@ -85,7 +85,7 @@ h1{
     padding: 65px 0;
 }
 .about img{
-    width: 55%;
+    width: 60%;
     float: right;
     margin-right: 20%;
 }
@@ -98,6 +98,7 @@ h1{
     text-align: center;
     padding: 0 25%;
     color: #575757;
+    
 }
 .recipies-section{
     margin-top: 0;
@@ -112,4 +113,5 @@ h1{
 }
 .recipies-item img{
     width: 100%;
+    border-radius: 15px;
 }
