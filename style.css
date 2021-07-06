@@ -3,6 +3,11 @@ body{
     margin: 0;
 }
 /*  start */ 
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
    
 .menu-bar {
     background-color: #FFF4ED;
@@ -31,24 +36,24 @@ body{
 }
 .menu-right {
     width: 25%;
-    margin-top: 8px;
+    margin-top: -50px;
     float: right;
 }
 .menu-right input {
     padding: 11px 15px;
-    border: none;
+    border-color: #FC934A;
     background-color: #ffffff;
-    box-shadow: 0px 0px 10px #00000080;
-    border-radius: 21px;
+    /* box-shadow: 0px 0px 10px #00000080; */
+    border-radius: 10px;
 }
 .menu-right button {
     border: none;
     background-color: #FC934A;
-    padding: 10px 10px;
-    border-radius: 12px;
+    padding: 12px 20px;
+    border-radius: 8px;
     margin-left: 10px;
     color: white;
-    box-shadow: 0 0 10px #8a8a8a;
+    /* box-shadow: 0 0 10px #8a8a8a; */
 }
  /* end */
 
@@ -66,7 +71,8 @@ h1{
     padding: 10px 20px;
 }
 .top-banner{
-    margin-top: 50px;
+    margin-top: 10%;
+    
     
 
 }
@@ -140,4 +146,89 @@ h1{
 .recipies-item img{
     width: 100%;
     border-radius: 15px;
+}
+/* hf */
+
+.section-subscribe{
+    padding: 50px 8%;
+}
+
+.subscribe-row{
+    border-radius: 15px;
+    box-shadow: 10px 5px 25px #b3b3b3;
+}
+
+.subscribe{
+    width: 33%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.subscribe p{
+    margin: 0;
+}
+/* jjf*/
+
+
+
+.newsletter {
+    padding-bottom: 120px;  
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.news-head p {
+    font-size: 22px;
+}
+.news-head h1 {
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+.news-box input {
+    padding: 21px 82px;
+    border: 1px solid #FC934A;
+    font-size: 18px;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+    outline: none;
+}
+.news-box button {
+    border:2px solid transparent;
+    background-color: #FC934A;
+    padding: 22px 40px;
+    border-radius: 40px;
+    color: white;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.news-box button:hover{
+    background-color: white;
+    border: 2px solid #FC934A;
+    color: black ;
+
+}
+
+footer{
+    background-color: black;
+    padding: 25px 0;
+}
+
+footer div{
+    text-align: center;
+}
+
+footer div h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.food{
+    color: tomato;
+}
+
+footer div p{
+    margin: 0;
+    color: #fff;
 }
