@@ -2,36 +2,55 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-nav{
-    background-image: linear-gradient(orange, tomato);
-    margin: 0;
-    padding: 5px;
+/*  start */ 
+   
+.menu-bar {
+    background-color: #FFF4ED;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-ul{
-    text-align: right;
-    padding: 0px 20px;
-    
+.menu-left{
+    width: 75%;
 }
 
-ul li{
+.menu-left ul li {
     display: inline;
-    font-weight: 600;
-    font-size: larger;
-    
+    padding-left: 50px;
 }
 
-ul li a{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    margin: 10px;
+.menu-left ul li a {
     text-decoration: none;
+    font-size: 20px;
+    color: #575757;
 }
-
-ul li a:hover{
-    text-decoration: underline;
-    color: black;
+.menu-left a:hover{
+    color: #FE5F41;
 }
+.menu-right {
+    width: 25%;
+    margin-top: 8px;
+    float: right;
+}
+.menu-right input {
+    padding: 11px 15px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #00000080;
+    border-radius: 21px;
+}
+.menu-right button {
+    border: none;
+    background-color: #FC934A;
+    padding: 10px 10px;
+    border-radius: 12px;
+    margin-left: 10px;
+    color: white;
+    box-shadow: 0 0 10px #8a8a8a;
+}
+ /* end */
 
 h1{
     font-size: 50px;
@@ -43,7 +62,7 @@ h1{
 }
 .flxible-container{
     display: flex;
-    margin-bottom: auto;
+    margin-bottom: 100px;
     padding: 10px 20px;
 }
 .top-banner{
@@ -77,6 +96,11 @@ h1{
     border-radius: 15px;
     font-weight: 700;
     color: white;
+}
+.link-button:hover{
+    text-decoration: underline;
+    color: black;
+    
 }
 .about-section{
     background-image: url(images/shapes/7.png);
