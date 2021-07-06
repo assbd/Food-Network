@@ -1,3 +1,115 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+nav{
+    background-image: linear-gradient(orange, tomato);
+    margin: 0;
+    padding: 5px;
+}
+
+ul{
+    text-align: right;
+    padding: 0px 20px;
+    
+}
+
+ul li{
+    display: inline;
+    font-weight: 700;
+    font-size: larger;
+    
+}
+
+ul li a{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+h1{
+    font-size: 50px;
+    
+    
+}
+.header-color{
+    color: orange;
+}
+.flxible-container{
+    display: flex;
+    margin-bottom: 80px;
+    padding: 10px 20px;
+}
+.top-banner{
+    margin-top: 50px;
+    
+
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5px;
+}
+.half-width img {
+    width: 90%;
+    float: center;
+}
+.half-width h1{
+    color: #575757;
+    
+    margin-top: 90px;
+}
+.half-width p {
+    color: #575757;
+    
+    margin-bottom: 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: 700;
+    color: white;
+}
+.about-section{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 0;
+}
+.about img{
+    width: 55%;
+    float: right;
+    margin-right: 20%;
+}
+.recipies h2{
+    text-align: center;
+    color: #575757;
+}
+
+.recipies p{
+    text-align: center;
+    padding: 0 25%;
+    color: #575757;
+}
+.recipies-section{
+    margin-top: 0;
+}
+.recipies-item{
+    width: 27%;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 15px;
+    box-shadow: 10px 10px 30px #b3b3b3;
+    border-radius: 15px;
+}
+.recipies-item img{
+    width: 100%;
 }
