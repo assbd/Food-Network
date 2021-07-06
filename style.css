@@ -43,7 +43,7 @@ h1{
 }
 .flxible-container{
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: auto;
     padding: 10px 20px;
 }
 .top-banner{
@@ -82,12 +82,14 @@ h1{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 65px 0;
+    padding: 0px ;
+    
 }
 .about img{
     width: 60%;
     float: right;
     margin-right: 20%;
+    margin-top: 20%;
 }
 .recipies h2{
     text-align: center;
